@@ -27,6 +27,17 @@ public class UserService {
         userRepository.save(user);
     }
 
+    public void saveUser(User user){
+        userRepository.save(user);
+    }
+
+    public void deleteByUserName(String userName){
+        User user = userRepository.findByUserName(userName);
+        if(user != null){
+            userRepository.delete(user);
+        }
+    }
+
     public List<User> getAll(){
         return userRepository.findAll();
     }

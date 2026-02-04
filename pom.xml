@@ -57,9 +57,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
-	</dependencies>
+ 
+   <dependency>
+     <groupId>com.github.luues.boot</groupId>
+     <artifactId>spring-boot-starter-security</artifactId>
+     <version>1.0.0.0.RELEASE</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>

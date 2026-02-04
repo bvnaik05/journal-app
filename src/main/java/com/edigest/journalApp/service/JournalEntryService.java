@@ -45,6 +45,10 @@ public class JournalEntryService {
     public void deleteById(String id){
         journalEntryRepository.deleteById(id);
     }
+
+    public void saveEntry(JournalEntry journalEntry){
+        journalEntryRepository.save(journalEntry);
+    }
 }
 
 
