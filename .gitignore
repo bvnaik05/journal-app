@@ -37,3 +37,7 @@ src/main/resources/application-local.properties
 src/main/resources/application-secrets.properties
 *.local.properties
 *-secrets.properties
+
+### Log Files ###
+logs/
+*.log
